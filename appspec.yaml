@@ -3,7 +3,7 @@ Resources:
   - MyLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: restaurantApiFunction   # Your Lambda function name
-        Alias: prod                   # The alias you're using (like 'prod')
-        CurrentVersion: $LATEST       # Current version of the function
-        TargetVersion: 1              # New version to be deployed
+        Name: restaurantApiFunction   
+        Alias: prod                  
+        CurrentVersion: $LATEST     
+        TargetVersion: 1             
