@@ -13,5 +13,6 @@ phases:
 artifacts:
   files:
     - function.zip
+    - appspec.yaml
   discard-paths: yes
   encryption: aws:kms
