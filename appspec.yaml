@@ -1,7 +1,9 @@
 version: 0.0
-resources:
-  - name: my-react-app-lambda
-    type: AWS::Lambda::Function
-    properties:
-      name: my-react-app-lambda
-      alias: live
+Resources:
+  - myLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "my-react-app-lambda"
+        Alias: "live"
+        CurrentVersion: "1"  # Replace with your current version
+        TargetVersion: "2"   # Replace with your target version
