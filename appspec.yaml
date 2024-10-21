@@ -5,5 +5,5 @@ Resources:
       Properties:
         Name: "my-react-app-lambda"
         Alias: "live"
-        CurrentVersion: "X"  # Replace with the version the alias points to
-        TargetVersion: "Y"   # Replace with the target version you want to deploy
+        CurrentVersion: "<existing_version>"  # Replace with the current alias version
+        TargetVersion: "<new_version>"       # Replace with the desired target version
