@@ -5,5 +5,5 @@ Resources:
       Properties:
         Name: "my-react-app-lambda"
         Alias: "live"
-        CurrentVersion: "<existing_version>"  # Replace with the current alias version
-        TargetVersion: "<new_version>"       # Replace with the desired target version
+        CurrentVersion: "1"   # Set to the published version number
+        TargetVersion: "1"    # Replace with the desired target version, if different
